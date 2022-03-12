@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    margin: 0;
+    font-family:'Open Sans', sans-serif; 
+    color: var(--accent);
+}
+.container {
+    max-width: 1140px;
+    margin: o auto;
+    padding: 0 15px;
+    border: 1px solid green;
+    background-color: yellow
+}
+
+.header-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding: 15px 30px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.header-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 15px;
+    list-style: none;
+    background-color: red;
+    width: 100px;
+}
+
+.header-menu-item {
+    padding: 10px 0;
+}
+
+.header-menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu-show {
+    display: flex;
+}
+
+.about-col {
+    width: 100%;
+}
+
+.contacts{
+    text-align: center;
+}
+
+.contact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-list li {
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border: 10px;
+    padding: 15px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 15px;
+}
+
+.skills li {
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.code-example {
+    text-align: center;
+}
+
+.code-example pre {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages {
+    text-align: center;
+}
+
+.languages ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education {
+    text-align: center;
+}
+
+.education ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer p {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header-inner {
+        display: flex;
+        gap: 15px;
+    }
+
+    .about-col {
+        width: 50%;
+    }
+
+    .contact-list {
+        display: flex;
+        gap: 15px;
+    }
+
+    .contact-list li {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}
